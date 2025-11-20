@@ -1,0 +1,16 @@
+{
+  "name": "trusted-device-api",
+  "version": "1.0.0",
+  "description": "Trusted Device API with MFA bypass",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
